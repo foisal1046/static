@@ -1,0 +1,113 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Syne+Tactile&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Slackey&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+span{
+    color: #00bbf9;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #6c757d;
+    
+    
+}
+.topNavBanner{
+    
+    flex-grow: 1;
+}
+.navOne{
+    /* background-color: brown; */
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.navOne div{
+    display: flex;
+}
+.navOneTop{
+    flex-grow: 1;
+    align-items: center;
+}
+.navOneTop a{
+    text-decoration: none;
+    color: #f94144;
+    
+    margin-bottom: 0px;
+
+   
+}
+.navOneTop a h1{
+    font-family: 'Syne Tactile', cursive;
+}
+.navOne div a img{
+    margin: 10px;
+}
+.navList{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.navList li a{
+    text-decoration: none;
+    margin: 0 12px;
+    color: black;
+}
+.navList li a:hover{
+    color: tomato;
+}
+.navTwo{
+    /* background-color: blueviolet; */
+    width: 15%;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formNav button{
+    background-color: tomato;
+    border: solid 1px black;
+    border-radius: 8px;
+}
+.topMain, .secMain{
+    
+    margin: 1px 0;
+    height: 75vh;
+    display: flex;
+    color: #edf6f9;
+    border: .5px solid #6c757d;
+    border-radius: 10px;
+}
+section.topMain {
+    background: url(images/bg08.jpg) no-repeat center;
+}
+section.secMain{
+    background: url(images/bg09.jpg) no-repeat center;
+}
+
+.topMain div,.secMain div{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+.topMain div p{
+    font-family: 'Syne Tactile', cursive;
+}
+.topMain div h1, .secMain div h1{
+    font-size: 65px;
+    font-family: 'Slackey', cursive;
+}
+
+.secMain div img{
+    height: 500px;
+    width: 600px;
+}
+
